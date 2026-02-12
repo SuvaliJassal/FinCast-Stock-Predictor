@@ -16,5 +16,5 @@ FinCast is a custom-styled desktop application built with Python and PyQt5. It h
 - **Language**: Python 3.9+
 - **GUI Framework**: PyQt5
 - **Data Analysis**: Pandas, Matplotlib
-- **API**: Yahoo Finance (`yfinance`)
+
 
