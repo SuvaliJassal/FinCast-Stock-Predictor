@@ -32,7 +32,7 @@ class Finance():
         latest_close = df['Close'].iloc[-1]
         latest_ma = df['MA'].iloc[-1]
         
-        # Handling the Series comparison error
+        
         if hasattr(latest_close, "__len__"): latest_close = latest_close.iloc[0]
         if hasattr(latest_ma, "__len__"): latest_ma = latest_ma.iloc[0]
 
@@ -40,7 +40,7 @@ class Finance():
         plt.title(f"Ticker: {ticker} | Recommendation: {action}")
         plt.legend()
         
-        # THE FIX FOR FROZEN ICONS
+        
         plt.show(block=False)
         plt.pause(0.1)
 
